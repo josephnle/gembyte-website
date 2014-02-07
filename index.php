@@ -32,7 +32,30 @@
 </nav>
 
 <div class="row">
-  <div class="large-12">
+  <div class="small-12 large-5 columns">Left</div>
+  <div class="small-12 large-5 large-push-5 columns">
+    <ul data-orbit>
+      <li data-orbit-slide="headline-1">
+        <div>
+          <h2>Headline 1</h2>
+          <h3>Subheadline</h3>
+        </div>
+      </li>
+      <li data-orbit-slide="headline-2">
+        <div>
+          <h2>Headline 2</h2>
+          <h3>Subheadline</h3>
+        </div>
+      </li>
+      <li data-orbit-slide="headline-3">
+        <div>
+          <h2>Headline 3</h2>
+          <h3>Subheadline</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="bullets" class="small-12 large-2 large-pull-5 columns">
   </div>
 </div>
 
@@ -51,6 +74,7 @@
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
+<script src="js/foundation/foundation.orbit.js"></script>
 <script>
   $(document).foundation();
 </script>

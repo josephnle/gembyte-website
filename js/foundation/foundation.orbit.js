@@ -66,7 +66,7 @@
 
       if (settings.bullets) {
         bullets_container = $('<ol>').addClass(settings.bullets_container_class);
-        container.append(bullets_container);
+        $("#bullets").append(bullets_container);
         bullets_container.wrap('<div class="orbit-bullets-container"></div>');
         slides_container.children().each(function(idx, el) {
           var bullet = $('<li>').attr('data-orbit-slide', idx);
@@ -224,7 +224,7 @@
         animate = new SlideAnimation(settings, slides_container);        
       container.on('click', '.'+settings.next_class, self.next);
       container.on('click', '.'+settings.prev_class, self.prev);
-      container.on('click', '[data-orbit-slide]', self.link_bullet);
+      $("#bullets").on('click', '[data-orbit-slide]', self.link_bullet);
       container.on('click', self.toggle_timer);
       if (settings.swipe) {
         container.on('touchstart.fndtn.orbit', function(e) {
