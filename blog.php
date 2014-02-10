@@ -66,9 +66,12 @@
 					?>
 				</div>
 				
-			</div>		
-			<div class="large-4 columns">Twitter</div>
+			</div>	
 		</div>
+		<div class="large-4 columns">
+			Twitter
+		</div>
+		
 	</div>
 </div>
 
