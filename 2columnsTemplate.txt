@@ -5,22 +5,13 @@
 # clear the "News Pagination" tab.								 #
 ##################################################################################################
  
-<div style="width: 49%; float:left; margin-bottom:30px;">
-    <div style="clear:both;">
-         
-       <div style="word-wrap:break-word; width:300px; float:left;"><strong>[link]{title}[/link]</strong>
-       </div><br>
-       <div><em>Posted on {date} by {author}</em></div>
-        
-       <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px  
-              solid #D3D3D3;word-wrap:break-word;">{short-story}
-              <div style="margin-top:10px;">[full-link target=_blank]Read more... [/full-link]</div>
-       </div>
-       <div style="margin: 0 0 8px 0;">{tagline}</div>
-         
-    </div>
+  <div class="small-12 medium-6 columns">
+    <h3>[link]{title}[/link]</h3>
+    <h4><small>Posted by {author} on {date}</small></h4>
+    <hr />
+    <p>{short-story}</p>
+    <h6><small>{tagline}</small></h6>
 
-    <div style="float: right;">[com-link]{comments-num} Comments[/com-link]</div>
-    {fb-comments} {fb-like} {gplus} {twitter}
-</div>
-
+    <hr />
+    <div class="left">[full-link target=_blank]Read more... [/full-link]</div>
+  </div>

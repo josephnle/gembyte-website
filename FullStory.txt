@@ -1,0 +1,17 @@
+##################################################################################################
+# This is the FullStory template. When you access the CuteNews Dashboard, click on templates.	 #
+# Create a new template by cloning a previous template and name it MainStory. Select the 	     #
+# default template and replace the code with the one given here on the "Full Story" tab. In 	 #
+# addition clear the comments tab.							                                     #
+##################################################################################################
+<div class="row">
+  <div class="small-12 columns">
+    <h4>{title}</h4>
+    <h4><small>Posted by {author} on {date}</small></h4>
+    <hr />
+    <p>{full-story}</p>
+    <hr />
+    <div class="right">{fb-like} {gplus} {twitter}</div>
+    <p>{fb-coments}</p>
+  </div>
+</div>

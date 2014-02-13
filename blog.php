@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gembyte | Home</title>
+  <title>Gembyte | Blog</title>
   <link rel="stylesheet" href="css/foundation.css" />
   <script src="js/vendor/modernizr.js"></script>
 </head>
@@ -35,53 +35,33 @@
 
 <div class="row">
 	<div class="large-12 columns">
-		HI
-	</div>
-</div>
-<div class="row">
-	<div class="large-12 columns">
-		<div class="large-8 columns">	
+		<div class="large-8 columns">
+      <!-- Main story -->
 			<?php
-				
 				$template = "Mainstory";
 				$number = 1;
-				include("./cutenews/show_news.php");
+				include("cutenews/show_news.php");
 			?>
-			<div class="row">
-				<div class="large-12 columns" style="float:left;">
-					<?php
-						if($_GET['id']===null){;
-							$number = 0;
-							$start_from = 1;
-							$template = "2Columns";
-							include("./cutenews/show_news.php");
-						}		
-						
-						
-					?>
-				</div>
-				
-				
-			</div>
+      <br />
+
+      <!-- Two story columns -->
+      <div class="row">
+        <?php
+          if(!isset($_GET['id'])){
+            $number = 2;
+            $start_from = 1;
+            $template = "2Columns";
+            include("cutenews/show_news.php");
+          }
+        ?>
+      </div>
 		</div>
+
+    <!-- Twitter integration -->
 		<div class="large-4 columns">
 			Twitter
 		</div>
 	</div>
-</div>
-
-<div class="row">
-  <div class="small-12 large-6 columns">
-    <h3>BLOG</h3>
-    <p>Stay up to date with development</p>
-    <a href="#" class="button">LEARN MORE</a>
-	
-  </div>
-  <div class="small-12 large-6 columns">
-    <h3>HOW IT WORKS</h3>
-    <p>See a demo of how our product works</p>
-    <a href="#" class="button">VIDEO</a>
-  </div>
 </div>
 
 <script src="js/vendor/jquery.js"></script>
