@@ -28,7 +28,7 @@
     <ul class="left">
       <li><a href="index.php">Home</a></li>
       <li><a href="blog.php">Blog</a></li>
-      <li><a href="#" data-reveal-id="demo" data-reveal class="button">How It Works</a></li>
+      <li><a href="#" data-reveal-id="demo" data-reveal>How It Works</a></li>
     </ul>
   </section>
 </nav>
