@@ -50,10 +50,12 @@
 			<div class="row">
 				<div class="large-12 columns" style="float:left;">
 					<?php
-						$number = 0;
-						$start_from = 1;
-						$template = "2Columns";
-						
+						echo $_GET['id'];
+						if($_GET['id']===null){;
+							$number = 0;
+							$start_from = 1;
+							$template = "2Columns";
+						}		
 						
 						include("./cutenews/show_news.php");
 					?>
