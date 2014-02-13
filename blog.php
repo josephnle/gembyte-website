@@ -1,9 +1,12 @@
+<?php
+	ob_start (); // Buffer output
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gembyte | Blog</title>
+  <title><!--TITLE--></title>
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/gembyte.css" />
   <script src="js/vendor/modernizr.js"></script>
@@ -39,6 +42,18 @@
 		<div class="large-8 columns">
       <!-- Main story -->
 			<?php
+				$header_title="Blog";
+				
+				require_once 'cutenews/cn_api.php';
+				$entry = cn_api_get_entry();
+				if ($entry['t'])
+				{
+					 // ........
+					 $header_title = $entry['t'];
+
+					 print_r($entry);
+				}
+				
 				$template = "Mainstory";
 				$number = 1;
 				include("cutenews/show_news.php");
@@ -73,4 +88,9 @@
 
 
 </body>
+<?php
+	$pageContents = ob_get_contents (); 
+	ob_end_clean (); 
+	echo str_replace ('<!--TITLE-->', $header_title, $pageContents);
+?>
 </html>
