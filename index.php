@@ -26,9 +26,9 @@
 
     <!-- Left Nav Section -->
     <ul class="left">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">How It Works</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="blog.php">Blog</a></li>
+      <li><a href="#" data-reveal-id="demo" data-reveal class="button">How It Works</a></li>
     </ul>
   </section>
 </nav>

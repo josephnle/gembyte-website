@@ -13,6 +13,7 @@
 <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
+      <h1 class="show-for-small-only"><a href="#">Gembyte</a></h1>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
@@ -25,9 +26,9 @@
 
     <!-- Left Nav Section -->
     <ul class="left">
-      <li><a href="#">Home</a></li>
-      <li><a href="./blog.php">Blog</a></li>
-      <li><a href="#">How It Works</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="blog.php">Blog</a></li>
+      <li><a href="#" data-reveal-id="demo" data-reveal class="button">How It Works</a></li>
     </ul>
   </section>
 </nav>
