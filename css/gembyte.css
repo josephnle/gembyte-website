@@ -1,0 +1,20 @@
+#headwrap {
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#headwrap h2, #headwrap h3 {
+    color: #ffffff;
+}
+
+#bullets {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+}
