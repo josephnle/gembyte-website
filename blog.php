@@ -42,15 +42,16 @@
 		<div class="large-8 columns">
       <!-- Main story -->
 			<?php
-				$header_title="Gemybte | Blog";
+				$header_title="Blog";
 				
 				require_once 'cutenews/cn_api.php';
 				$entry = cn_api_get_entry();
 				if ($entry['t'])
 				{
 					 // ........
-					 $header_title .= " ".$entry['t'];
+					 $header_title = $entry['t'];
 
+					 //print_r($entry);
 				}
 				
 				$template = "Mainstory";
@@ -78,6 +79,15 @@
 		</div>
 	</div>
 </div>
+<!-- video -->
+<div id="demo" class="reveal-modal medium" data-reveal>
+  <h2>How it works</h2>
+  <div class="flex-video">
+    <iframe width="420" height="315" src="//www.youtube.com/embed/aiBt44rrslw" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
