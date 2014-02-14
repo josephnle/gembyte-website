@@ -39,27 +39,38 @@
       <ul data-orbit>
         <li data-orbit-slide="headline-1">
           <div>
-            <h2>Headline 1</h2>
-            <h3>Subheadline</h3>
+            <img src="img/iphone_blank_slant.png" alt="slide 1" />
           </div>
         </li>
         <li data-orbit-slide="headline-2">
           <div>
-            <h2>Headline 2</h2>
-            <h3>Subheadline</h3>
+            <img src="img/iphone_blank_slant.png" alt="slide 2" />
           </div>
         </li>
         <li data-orbit-slide="headline-3">
           <div>
-            <h2>Headline 3</h2>
-            <h3>Subheadline</h3>
+            <img src="img/iphone_blank_slant.png" alt="slide 3" />
+          </div>
+        </li>
+        <li data-orbit-slide="headline-4">
+          <div>
+            <img src="img/iphone_blank_slant.png" alt="slide 4" />
           </div>
         </li>
       </ul>
     </div>
     <div id="bullets" class="small-12 medium-2 columns show-for-medium-up">
     </div>
-    <div class="small-12 medium-5 columns">Right</div>
+    <div class="small-12 medium-5 columns">
+      <div class="small-12 medium-6 columns">
+        <img src="img/iphone_slant_logo.png" />
+      </div>
+      <div class="small-12 medium-6 columns">
+        <h3>GEMBYTE</h3>
+        <p>A global currency for all your games. Play one game and earn rewards for another.</p>
+        <a class="button" href="#">LEARN MORE</a>
+      </div>
+    </div>
   </div>
 </div>
 
