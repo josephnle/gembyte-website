@@ -37,6 +37,15 @@
   </section>
 </nav>
 
+<!-- Page header -->
+<div id="header">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1>GEMBYTE</h1>
+    </div>
+  </div>
+</div>
+
 <div class="row">
 	<div class="large-12 columns">
 		<div class="large-8 columns">
@@ -91,6 +100,7 @@
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
 <script>
   $(document).foundation();
 </script>

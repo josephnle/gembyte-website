@@ -1,3 +1,9 @@
+#header {
+    border-top: thick solid #E0218A;
+    background-color: #888888;
+    margin-bottom: 20px;
+}
+
 #headwrap {
     border-top: thick solid #E0218A;
     background-color: #000000;
