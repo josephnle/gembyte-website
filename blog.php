@@ -42,17 +42,15 @@
 		<div class="large-8 columns">
       <!-- Main story -->
 			<?php
-				<!-- changing title of page -->
-				$header_title="Blog";
+				$header_title="Gemybte|Blog";
 				
 				require_once 'cutenews/cn_api.php';
 				$entry = cn_api_get_entry();
 				if ($entry['t'])
 				{
 					 // ........
-					 $header_title = $entry['t'];
+					 $header_title += $entry['t'];
 
-					 
 				}
 				
 				$template = "Mainstory";
