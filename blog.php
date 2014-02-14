@@ -42,6 +42,7 @@
 		<div class="large-8 columns">
       <!-- Main story -->
 			<?php
+				<!-- changing title of page -->
 				$header_title="Blog";
 				
 				require_once 'cutenews/cn_api.php';
@@ -51,7 +52,7 @@
 					 // ........
 					 $header_title = $entry['t'];
 
-					 print_r($entry);
+					 
 				}
 				
 				$template = "Mainstory";
