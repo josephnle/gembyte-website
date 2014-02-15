@@ -21,7 +21,7 @@
 <div id="header">
   <div class="row">
     <div class="small-12 columns">
-      <h1>GEMBYTE</h1>
+      <h1><span style="color: #0292B6;">GEM</span><span style="color: #e400ff;">BYTE</span></h1>
     </div>
   </div>
 </div>

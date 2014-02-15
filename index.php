@@ -46,7 +46,7 @@
         <img src="img/iphone_slant_logo.png" />
       </div>
       <div class="small-12 medium-6 columns">
-        <h3>GEMBYTE</h3>
+        <h3><span style="color: #0292B6;">GEM</span><span style="color: #e400ff;">BYTE</span></h3>
         <p class="blue">A global currency for all your games. Play one game and earn rewards for another.</p>
         <a class="button small" href="#">LEARN MORE</a>
       </div>
