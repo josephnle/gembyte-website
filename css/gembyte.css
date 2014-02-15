@@ -46,3 +46,20 @@
     background-size: auto;
     vertical-align: middle;
 }
+
+.button.yellow {
+    background-color: #FFCC00;
+    color: #ffffff;
+}
+
+.button.yellow:hover, .button.yellow:focus {
+    background-color: #E6B800;
+}
+
+.blue {
+    color: #0292B6;
+}
+
+.yellow {
+    color: #FFCC00;
+}

@@ -78,23 +78,23 @@
       </div>
       <div class="small-12 medium-6 columns">
         <h3>GEMBYTE</h3>
-        <p>A global currency for all your games. Play one game and earn rewards for another.</p>
-        <a class="button" href="#">LEARN MORE</a>
+        <p class="blue">A global currency for all your games. Play one game and earn rewards for another.</p>
+        <a class="button small" href="#">LEARN MORE</a>
       </div>
     </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="small-12 large-6 columns">
-    <h3>BLOG</h3>
+  <div class="small-12 medium-5 medium-offset-2 columns">
+    <h3 class="blue">BLOG</h3>
     <p>Stay up to date with development</p>
     <a href="#" class="button">LEARN MORE</a>
   </div>
-  <div class="small-12 large-6 columns">
-    <h3>HOW IT WORKS</h3>
+  <div class="small-12 medium-5 columns end">
+    <h3 class="yellow">HOW IT WORKS</h3>
     <p>See a demo of how our product works</p>
-    <a href="#" data-reveal-id="demo" data-reveal class="button">VIDEO</a>
+    <a href="#" data-reveal-id="demo" data-reveal class="button yellow">VIDEO</a>
   </div>
 </div>
 
