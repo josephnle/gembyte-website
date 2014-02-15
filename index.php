@@ -35,7 +35,7 @@
 	  <!-- Right Nav Section -->
     <ul class="right">
       <li class="show-for-medium-up">
-		    <a href="#"><img src="img/join_beta_button.png" style="z-index:-1"/><p>join</p></a>
+		    <a id="join" href="#">Join</a>
 	    </li>
 	    <li class="show-for-small-only">
 		    <a href="#">Join</a>

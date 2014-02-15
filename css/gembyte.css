@@ -1,11 +1,11 @@
 #header {
-    border-top: thick solid #E0218A;
+    border-top: thick solid #e400ff;
     background-color: #888888;
     margin-bottom: 20px;
 }
 
 #headwrap {
-    border-top: thick solid #E0218A;
+    border-top: thick solid #e400ff;
     background-color: #000000;
     color: #ffffff;
     position: relative;
@@ -37,4 +37,12 @@
     text-align: center;
     right: 0;
     left: 0;
+}
+
+#join {
+    background-image: url('../img/join_beta_button.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    vertical-align: middle;
 }
