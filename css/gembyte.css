@@ -26,6 +26,15 @@
     bottom: 0;
 }
 
-#background{
-	background-image:url(../img/tile.png);
+#top-bar {
+	background-image:url('../img/tile.png');
+}
+
+#logo {
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    right: 0;
+    left: 0;
 }
