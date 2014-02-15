@@ -25,3 +25,7 @@
     margin-right: auto;
     bottom: 0;
 }
+
+#background{
+	background-image:url(../img/tile.png);
+}
