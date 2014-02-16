@@ -63,7 +63,7 @@
   <div class="small-12 medium-5 medium-offset-2 columns">
     <h3 class="blue">BLOG</h3>
     <p>Stay up to date with development</p>
-    <a href="#" class="button">LEARN MORE</a>
+    <a href="#" data-reveal-id="learn_more" data reveal class="button">LEARN MORE</a>
   </div>
   <div class="small-12 medium-5 columns end">
     <h3 class="yellow">HOW IT WORKS</h3>
@@ -76,6 +76,14 @@
   <h2>How it works</h2>
   <div class="flex-video">
     <iframe width="420" height="315" src="//www.youtube.com/embed/aiBt44rrslw" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <a class="close-reveal-modal">x</a>
+</div>
+
+<div id="learn_more" class="reveal-modal medium" data-reveal>
+  <h2>Learn More</h2>
+  <div>
+    <p>Learn More</p>
   </div>
   <a class="close-reveal-modal">x</a>
 </div>
