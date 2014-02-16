@@ -22,8 +22,8 @@
 
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="show-for-medium-up">
-        <a id="join" href="#">Join</a>
+      <li id="join" class="show-for-medium-up">
+        <a href="#">Join</a>
       </li>
       <li class="show-for-small-only">
         <a href="#">Join</a>

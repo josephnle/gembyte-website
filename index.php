@@ -16,7 +16,11 @@
 <div id="headwrap">
   <div class="row">
     <div class="small-12 medium-5 columns">
-      <ul data-orbit>
+      <ul data-orbit data-options="animation:slide;
+                  pause_on_hover:true;
+                  navigation_arrows:false;
+                  timer:false;
+                  slide_number: false;">
         <li data-orbit-slide="headline-1">
           <div>
             <img src="img/iphone_blank_slant.png" alt="slide 1" />

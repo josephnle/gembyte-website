@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family: NeutraText-Book;
+    src: url('../fonts/NeutraText-Book.otf') format("opentype");
+}
+
 #header {
     border-top: thick solid #e400ff;
     background: linear-gradient(#E8E8E8, white, #E8E8E8);
@@ -26,8 +32,9 @@
     bottom: 0;
 }
 
-#top-bar {
-	background-image:url('../img/tile.png');
+.top-bar {
+    background-image: url('../img/tile.png');
+    background-repeat: repeat;
 }
 
 #logo {
@@ -44,7 +51,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
+    color: #fff;
     vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#join a {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    color: #fff;
 }
 
 .button.yellow {
