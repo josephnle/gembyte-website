@@ -1,13 +1,13 @@
 <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
-      <h1 class="show-for-small-only"><a href="#">Gembyte</a></h1>
+        <img class="show-for-small-only" src="img/gembyte_icon.png"/>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
 
   <!-- Center logo -->
-  <div id="logo" class="show-for-medium-up text-center">
+  <div id="logo" class="show-for-large-up text-center">
     <img src="img/gembyte_icon.png"/>
   </div>
 

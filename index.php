@@ -16,11 +16,12 @@
 <div id="headwrap">
   <div class="row">
     <div class="small-12 medium-5 columns">
-      <ul data-orbit data-options="animation:slide;
-                  pause_on_hover:true;
-                  navigation_arrows:false;
-                  timer:false;
-                  slide_number: false;">
+      <ul data-orbit data-options="navigation_arrows:false;
+                  timer:true;
+                  slide_number: false;
+                  timer_speed:3000;
+                  animation_speed:700;
+                  pause_on_hover: false;">
         <li data-orbit-slide="headline-1">
           <div>
             <img src="img/iphone_blank_slant.png" alt="slide 1" />
@@ -43,16 +44,16 @@
         </li>
       </ul>
     </div>
-    <div id="bullets" class="small-12 medium-2 columns show-for-medium-up">
+    <div id="bullets" class="small-12 medium-2 columns">
     </div>
     <div class="small-12 medium-5 columns">
-      <div class="small-12 medium-6 columns">
+      <div class="small-4 medium-5 columns">
         <img src="img/iphone_slant_logo.png" />
       </div>
-      <div class="small-12 medium-6 columns">
-        <h3><span style="color: #0292B6;">GEM</span><span style="color: #e400ff;">BYTE</span></h3>
+      <div class="small-8 medium-6 columns end" style="vertical-align: middle;">
+        <h2><span style="color: #e400ff;">GEM</span><span style="color: #0292B6;">BYTE</span></h2>
         <p class="blue">A global currency for all your games. Play one game and earn rewards for another.</p>
-        <a class="button small" href="#">LEARN MORE</a>
+        <a class="button small purple" href="#">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -76,7 +77,7 @@
   <div class="flex-video">
     <iframe width="420" height="315" src="//www.youtube.com/embed/aiBt44rrslw" frameborder="0" allowfullscreen></iframe>
   </div>
-  <a class="close-reveal-modal">&#215;</a>
+  <a class="close-reveal-modal">x</a>
 </div>
 
 <script src="js/vendor/jquery.js"></script>

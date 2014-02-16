@@ -15,21 +15,24 @@
     background-color: #161616;
     color: #ffffff;
     position: relative;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 #headwrap h2, #headwrap h3 {
     color: #ffffff;
 }
 
-#bullets {
+@media screen and (min-width: 40.063em) {
+    #bullets {
     position: absolute;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     bottom: 0;
+    }
 }
 
 .top-bar {
@@ -73,6 +76,15 @@
 
 .button.yellow:hover, .button.yellow:focus {
     background-color: #E6B800;
+}
+
+.button.purple {
+    background-color: #e400ff;
+    color: #ffffff;
+}
+
+.button.purple:hover, .button.purple:focus {
+    background-color: #CD00E6;
 }
 
 .blue {
