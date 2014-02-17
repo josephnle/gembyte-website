@@ -23,7 +23,7 @@
     <!-- Right Nav Section -->
     <ul class="right">
       <li id="join_button" class="show-for-medium-up">
-        <a href="#" data-reveal-id="join" data-reveal>Join</a>
+        <a href="#" data-reveal-id="join" data-reveal class="button round secondary expand">Join</a>
       </li>
       <li class="show-for-small-only">
         <a href="#" data-reveal-id="join" data-reveal>Join</a>

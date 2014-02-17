@@ -51,9 +51,9 @@
         <img src="img/iphone_slant_logo.png" />
       </div>
       <div class="small-8 medium-6 columns end" style="vertical-align: middle;">
-        <h2><span style="color: #e400ff;">GEM</span><span style="color: #0292B6;">BYTE</span></h2>
+        <h2><span class="purple">GEM</span><span class="blue">BYTE</span></h2>
         <p class="blue">A global currency for all your games. Play one game and earn rewards for another.</p>
-        <a class="button small purple" href="#">LEARN MORE</a>
+        <a class="button small secondary" data-reveal-id="learn_more" data-reveal href="#">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -62,13 +62,13 @@
 <div class="row">
   <div class="small-12 medium-5 medium-offset-2 columns">
     <h3 class="blue">BLOG</h3>
-    <p>Stay up to date with development</p>
-    <a href="#" data-reveal-id="learn_more" data reveal class="button">LEARN MORE</a>
+    <p class="lead">Stay up to date with development</p>
+    <a href="#" data-reveal-id="learn_more" data-reveal class="button">LEARN MORE</a>
   </div>
   <div class="small-12 medium-5 columns end">
     <h3 class="yellow">HOW IT WORKS</h3>
-    <p>See a demo of how our product works</p>
-    <a href="#" data-reveal-id="demo" data-reveal class="button yellow">VIDEO</a>
+    <p class="lead">See a demo of how our product works</p>
+    <a href="#" data-reveal-id="demo" data-reveal class="button warning">VIDEO</a>
   </div>
 </div>
 

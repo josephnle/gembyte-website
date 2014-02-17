@@ -50,42 +50,20 @@
 }
 
 #join_button {
-    background-image: url('../img/join_beta_button.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    color: #fff;
+    margin-top: 25px;
     vertical-align: middle;
     text-align: center;
-    width: 100px;
-    height: auto;
     margin-bottom: 0;
     margin-right: 4rem;
 }
 
-#join_button a {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    color: #fff;
-}
-
-.button.yellow {
+.button.warning {
     background-color: #FFCC00;
     color: #ffffff;
 }
 
-.button.yellow:hover, .button.yellow:focus {
+.button.warning:hover, .button.warning:focus {
     background-color: #E6B800;
-}
-
-.button.purple {
-    background-color: #e400ff;
-    color: #ffffff;
-}
-
-.button.purple:hover, .button.purple:focus {
-    background-color: #CD00E6;
 }
 
 .blue {
@@ -94,4 +72,8 @@
 
 .yellow {
     color: #FFCC00;
+}
+
+.purple {
+    color: #e400ff;
 }
