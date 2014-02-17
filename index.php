@@ -85,6 +85,7 @@
 <script src="js/foundation/foundation.orbit.js"></script>
 <script src="js/foundation/foundation.reveal.js"></script>
 <script src="js/foundation/foundation.topbar.js"></script>
+<script src="js/foundation/foundation.abide.js"></script>
 <script>
   $(document).foundation();
 </script>

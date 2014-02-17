@@ -49,7 +49,7 @@
     left: 0;
 }
 
-#join {
+#join_button {
     background-image: url('../img/join_beta_button.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@
     margin-right: 4rem;
 }
 
-#join a {
+#join_button a {
     margin-left: 0;
     margin-right: 0;
     text-align: center;
