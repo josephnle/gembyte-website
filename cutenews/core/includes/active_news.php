@@ -120,7 +120,7 @@ if ($number && $_enable_pagination)
         }
         else $url = cn_url_modify("start_from=$_prev_num");
 
-        $PREV = '<a href="'.$url.'">\\1</a>';
+        $PREV = '<li class="arrow"><a href="'.$url.'">&laquo</a></li>';
     }
     // Back to first page
     elseif ($start_from && $start_from <= ($number - 1))
@@ -134,11 +134,11 @@ if ($number && $_enable_pagination)
         }
         else $url = cn_url_modify('start_from');
 
-        $PREV = '<a href="'.$url.'">\\1</a>';
+        $PREV = '<li class="arrow"><a href="'.$url.'">&laquo</a></li>';
     }
     else
     {
-        $PREV = '\\1';
+        $PREV = '  <li class="arrow unavailable"><a href="">&laquo;</a></li>';
     }
 
     // NEXT --->
@@ -154,9 +154,9 @@ if ($number && $_enable_pagination)
         }
         else $url = cn_url_modify("start_from=$_next_num");
 
-        $NEXT = '<a href="'.$url.'">\\1</a>';
+        $NEXT = '<li class="arrow"><a href="'.$url.'">&raquo</a></li>';
     }
-    else $NEXT = '\\1';
+    else $NEXT = '  <li class="arrow unavailable"><a href="">&raquo;</a></li>';
 
     // Special settings
     if ($no_prev) $PREV = '';
@@ -182,11 +182,11 @@ if ($number && $_enable_pagination)
             else $url = cn_url_modify("start_from=$_next_num");            
             if($start_from!=$_next_num)
             {
-                $links.='<a href="'.$url.'">'.($i+1).'</a>&nbsp;';
+                $links.='<li><a href="'.$url.'">'.($i+1).'</a></li>';
             }
             else
             {
-                $links.=($i+1).'&nbsp;';
+                $links.='<li class="current"><a href="">'.($i+1).'</a></li>';
             }
         }
         
