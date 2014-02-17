@@ -5531,7 +5531,8 @@ meta.foundation-mq-topbar {
 }
 /* line 241, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: transparent;
+  background: url('../img/tile.png') repeat;
+  border-bottom: #e400ff solid;
 }
 /* line 244, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -5557,7 +5558,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: transparent;
+  background: url("../img/tile.png") repeat;
   font-size: 16px;
   margin: 0;
 }
@@ -5579,7 +5580,7 @@ meta.foundation-mq-topbar {
   font-family: NeutraText-Book, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
-  background: transparent;
+  background: url("../img/tile.png") repeat;
 }
 /* line 300, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
